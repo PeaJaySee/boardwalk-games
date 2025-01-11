@@ -25,3 +25,11 @@ h1, h2, h3 {font-family:var(--secondary-font);
 
 .sub-heading-color{color:var(--highlight-color)}
 
+/*Grid visualisation CSS for testing*/
+
+.row, .container {border:1px solid black;}
+
+.col-12 {border: 2px solid white;
+         background-color:lightslategray;
+}
+
