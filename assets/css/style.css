@@ -84,10 +84,19 @@ h2{margin-bottom:2rem;}
                   border:none;      
 }
 
+#game-reservation-form {margin-bottom:3rem;}
 
-/*EVENTS*/
+#game-reservation-form h2 {justify-content: center;
+                             text-align: center;
+}
 
+/*BOOKING*/
 
+#booking-form {margin-bottom:3rem;}
+
+#booking-form h2 {justify-content: center;
+                             text-align: center;
+}
 
 
 /*FOOTER / CONTACT*/
@@ -147,7 +156,7 @@ h2{margin-bottom:2rem;}
         #event-times table {
                 overflow-x: auto;
                 display: block;
-                font-size: 12px;
+                font-size: 14px;
             }
 
 #event-times table td { 

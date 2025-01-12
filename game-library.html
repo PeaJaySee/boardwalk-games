@@ -307,6 +307,53 @@
               </div>
               </section>
 
+              <section id="game-reservation-form" class="container section">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8">
+                      <div class="justify-content-center">
+                        <h2>Reserve A Game</h2>
+                      </div>
+                        <form method="get" action="success.html">
+                            <div class="row">
+                                <div class="col-12 col-lg-4 mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input class="form-control" id="name" name="name" type="text" required>
+                                </div>
+                                <div class="col-12 col-lg-4 mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input class="form-control" id="email" name="email" type="email" required>
+                                </div>
+                                <div class="col-12 col-lg-4 mb-3">
+                                    <label for="phone" class="form-label">Phone number</label>
+                                    <input class="form-control" id="phone" name="phone" type="number" required>
+                                </div>
+                                <div class="col-12 col-lg-6 mb-3">
+                                    <label for="game-select" class="form-label">Select Game</label>
+                                    <select id="game-select" class="form-select" name="game-select" required>
+                                        <!--Setting value to "" on select marks it as an invalid choice for requirement-->
+                                        <option value="" selected>Select Game</option>
+                                        <option value="regular-play">Galaxy Pioneers</option>
+                                        <option value="dnd">Mystic Woods</option>
+                                        <option value="retro-night">Captain's Gambit</option>
+                                        <option value="tournament">Critter Quest</option>
+                                        <option value="kids-party">Settlers of Catan</option>
+                                        <option value="kids-party">Monopoly</option>
+                                        <option value="kids-party">Exploding Kittens</option>
+                                        <option value="kids-party">Cluedo</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-lg-6 mb-3">
+                                    <label for="date-requested" class="form-label">Date Requested</label>
+                                    <input class="form-control" id="date-requested" name="date-requested" type="date" required>
+                                </div>
+                            </div>
+        
+                            <button type="submit" class="btn btn-outline-primary custom-button-outline mt-2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
     </main>
 
     <!--Footer / Contact Section-->
