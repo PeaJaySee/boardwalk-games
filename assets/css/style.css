@@ -27,7 +27,7 @@ h2{margin-bottom:2rem;}
 
 .sub-heading-color{color:var(--highlight-color)}
 
-.section {margin-top: 2rem;
+.section {padding-top: 4rem; /*Prevent navbar overlap*/
           margin-bottom: 2rem;
 }
 
