@@ -53,6 +53,18 @@ h2{margin-bottom:2rem;}
 
 #services .card {margin-bottom:1rem;}
 
+/*GAME LIBRARY*/
+
+#new-games .card {margin-bottom:1.5rem;
+                  border:none;
+}
+
+#fav-games .card {margin-bottom:1.5rem;
+                  border:none;      
+}
+
+
+
 /*Grid visualisation CSS for testing*/
 
 /*.row, .container {border:1px solid black;}
@@ -87,8 +99,8 @@ h2{margin-bottom:2rem;}
 
         /*consistent text and footer spacing for service cards*/
         #services .card-body{min-height:220px;}        
-                        
-        }
+
+}
 
 /*XX Large Screens - 1400 px upwards*/
 
