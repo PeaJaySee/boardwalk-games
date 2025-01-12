@@ -31,6 +31,8 @@ h2{margin-bottom:2rem;}
           margin-bottom: 2rem;
 }
 
+
+
 /*NAVBAR*/
 
 #navbar{background-color: var(--primary-color);
@@ -86,10 +88,22 @@ h2{margin-bottom:2rem;}
                         font-size: 1.9rem;
                         /*transition of colour when hovering over icons*/
                         transition: color 0.3s ease-in-out;
+                        padding-bottom: 1rem;
 }
 
 #contact .social-links i:hover {color:white;
 }
+
+
+
+#open-times td, th {padding-right:50px;
+                    padding-bottom:10px;
+                  
+}
+
+#contact .table-dark * {background-color: var(--primary-color);}
+
+            
 
 /*Grid visualisation CSS for testing*/
 
