@@ -18,8 +18,12 @@ body {font-family:var(--primary-font);}
 
 h1, h2, h3 {font-family:var(--secondary-font);
             color:var(--primary-color);
-            text-transform:uppercase;
+           
 }
+
+h1, h2{text-transform:uppercase;}
+
+h2{margin-bottom:2rem;}
 
 .sub-heading-color{color:var(--highlight-color)}
 
@@ -40,7 +44,14 @@ h1, h2, h3 {font-family:var(--secondary-font);
 
 #header .lead {font-family:var(--secondary-font);}
 
+/*SERVICES*/
 
+#services .card-footer {font-weight:bold;
+                        color:var(--highlight-color);
+                        background-color: transparent;
+}
+
+#services .card {margin-bottom:1rem;}
 
 /*Grid visualisation CSS for testing*/
 
@@ -50,3 +61,41 @@ h1, h2, h3 {font-family:var(--secondary-font);
          background-color:lightslategray;
 }*/
 
+
+/*Media Queries*/
+
+/*Med Screens - tablets - 768px upwards*/
+@media screen and (min-width:768px) {
+
+/*consistent heights for service cards*/
+#services .card-body{min-height:190px;}        
+        
+}
+
+/*Large Screens - 992 px upwards*/
+
+@media screen and (min-width:992px) {
+
+/*consistent text and footer spacing for service cards*/
+#services .card-body{min-height:auto;}        
+                
+}
+
+/*X Large Screens - 1200 px upwards*/
+
+@media screen and (min-width:1200px) {
+
+        /*consistent text and footer spacing for service cards*/
+        #services .card-body{min-height:220px;}        
+                        
+        }
+
+/*XX Large Screens - 1400 px upwards*/
+
+@media screen and (min-width:1200px) {
+
+        /*consistent text and footer spacing for service cards*/
+        #services .card-body{min-height:200px;}        
+                        
+        }
+        
