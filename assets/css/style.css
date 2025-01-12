@@ -42,6 +42,16 @@ h2{margin-bottom:2rem;}
         background-color:var(--secondary-color);
 }
 
+.custom-button-outline{border:2px solid var(--highlight-color);
+        background-color:white;
+        color:var(--highlight-color);
+}
+
+.custom-button-outline:hover {border:2px solid var(--highlight-color);
+        background-color:var(--highlight-color);
+        color:white;
+}
+
 /*NAVBAR*/
 
 #navbar{background-color: var(--primary-color);
