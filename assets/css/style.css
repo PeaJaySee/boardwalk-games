@@ -32,6 +32,15 @@ h2{margin-bottom:2rem;}
 }
 
 
+/*BUTTONS*/
+
+.custom-button-filled{border:2px solid var(--highlight-color);
+                      background-color:var(--highlight-color);
+}
+
+.custom-button-filled:hover{border:2px solid var(--secondary-color);
+        background-color:var(--secondary-color);
+}
 
 /*NAVBAR*/
 
