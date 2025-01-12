@@ -86,7 +86,7 @@ h2{margin-bottom:2rem;}
 
 #game-reservation-form {margin-bottom:3rem;}
 
-#game-reservation-form h2 {justify-content: center;
+#game-reservation-form h2 {-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;
                              text-align: center;
 }
 
@@ -94,7 +94,7 @@ h2{margin-bottom:2rem;}
 
 #booking-form {margin-bottom:3rem;}
 
-#booking-form h2 {justify-content: center;
+#booking-form h2 {-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;
                              text-align: center;
 }
 
@@ -122,12 +122,15 @@ h2{margin-bottom:2rem;}
 #contact i {color:var(--secondary-color);
             font-size:1.2rem;
             margin-right:10px;
-            text-decoration-style: none;
+            -webkit-text-decoration-style: none;
+                    text-decoration-style: none;
 }
 
 #contact .social-links i {color:var(--highlight-color-light);
                         font-size: 1.9rem;
                         /*transition of colour when hovering over icons*/
+                        -webkit-transition: color 0.3s ease-in-out;
+                        -o-transition: color 0.3s ease-in-out;
                         transition: color 0.3s ease-in-out;
                         padding-bottom: 1rem;
 }
@@ -143,16 +146,6 @@ h2{margin-bottom:2rem;}
 }
 
 #contact .table-dark * {background-color: var(--primary-color);}
-
-            
-
-/*Grid visualisation CSS for testing*/
-
-/*.row, .container {border:1px solid black;}
-
-.col-12 {border: 2px solid white;
-         background-color:lightslategray;
-}*/
 
 
 /*Media Queries*/
