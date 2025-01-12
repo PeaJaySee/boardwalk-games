@@ -98,6 +98,13 @@ h2{margin-bottom:2rem;}
                              text-align: center;
 }
 
+/*EVENTS*/
+
+#event-times p {background-color: #416a8e;
+                color:#ffffff;
+                font-weight:bold;
+                text-align: center;
+}
 
 /*FOOTER / CONTACT*/
 
