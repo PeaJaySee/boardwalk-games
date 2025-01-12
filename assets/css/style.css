@@ -63,7 +63,33 @@ h2{margin-bottom:2rem;}
                   border:none;      
 }
 
+/*FOOTER / CONTACT*/
 
+#contact {background-color:var(--primary-color);
+          color:aliceblue;
+          padding-bottom: 2rem;
+}
+
+#contact h2 {color:aliceblue;
+
+}
+
+#contact .sub-heading-color {color:var(--highlight-color-light);}
+
+#contact i {color:var(--secondary-color);
+            font-size:1.2rem;
+            margin-right:10px;
+            text-decoration-style: none;
+}
+
+#contact .social-links i {color:var(--highlight-color-light);
+                        font-size: 1.9rem;
+                        /*transition of colour when hovering over icons*/
+                        transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {color:white;
+}
 
 /*Grid visualisation CSS for testing*/
 
