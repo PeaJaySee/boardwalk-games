@@ -20,10 +20,14 @@ h1, h2, h3 {font-family:var(--secondary-font);
             color:var(--primary-color);
 }
 
-
-/*Class Styles*/
-
 .sub-heading-color{color:var(--highlight-color)}
+
+
+/*NAVBAR*/
+
+#navbar{background-color: var(--primary-color);
+        color:#ffffff;
+}
 
 /*Grid visualisation CSS for testing*/
 
